@@ -66,6 +66,11 @@ input[type="radio"]:last-of-type {
 
 }
 
+select {
+    width:100%;
+    outline: none;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -78,5 +83,4 @@ table {
     padding: 8px;
   }
   
-  tr:nth-child(even) {
-  }
+  
