@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Idealgewichtsrechner</title>
+</head>
+
+<body>
+
+    <div class="rechner">
+        <div class="rechner-block">
+            <form action="">
+                <h1 class="heading">Idealgewichtsrechner</h1>
+                <div class="input-block">
+                    <label for="bodySize">Körpergröße</label>
+                    <input type="number" name="bodySize" id="bodySize" placeholder="160">
+                </div>
+                <div class="input-block">
+                    <label for="age">Alter</label>
+                    <input type="number" name="age" id="age" placeholder="26">
+                </div>
+                <div class="input-block">
+                    <label for="weight">Gewicht</label>
+                    <input type="number" name="weight" id="weight" placeholder="48">
+                </div>
+                <div class="input-block">
+                    <label for="bodyBuild">Körperbau</label>
+                    <div>
+                        <input type="radio" name="bodyBuild" id="weiblich" checked> Weiblich
+                        <input type="radio" name="bodyBuild" id="mannlich"> Männlich
+                    </div>
+                    <div class="input-block">
+                        <label for="activity">Arbeits- und Freizeitaktivität</label>
+                        <select name="" id="activities">
+                            <option value="0.95" selected>Schlafen</option>
+                            <option value="1.2">Nur Sitzen oder Liegen</option>
+                            <option value="1.5">Ausschließlich sitzende Tätigkeit mit wenig oder keiner körperlichen
+                                Aktivität
+                                in der Freizeit, z.B. Büroarbeit</option>
+                            <option value="1.7">Sitzende Tätigkeit mit zeitweilig gehender oder stehender Tätigkeit,
+                                z.B.
+                                Studierende, Fließbandarbeiter, Laboranten, Kraftfahrer
+                            </option>
+                            <option value="1.9">Überwiegend gehende oder stehende Tätigkeit, z.B. Verkäufer, Kellner,
+                                Handwerker, Mechaniker, Hausfrauen</option>
+                            <option value="2.2">Körperlich anstrengende berufliche Arbeit</option>
+                        </select>
+                    </div>
+
+
+                </div>
+                <input type="submit" value="Submit" id="submit">
+
+
+            </form>
+        </div>
+        <div class="output">
+            <!-- <table>
+                <tr>
+                    <th></th>
+                    <th>Kcal</th>
+                    <th>KJ</th>
+                </tr>
+                <tr>
+                    <td>Grundumsatz</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Gesamtumsatz</td>
+                    <td></td>
+                    <td></td>
+                </tr> -->
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
